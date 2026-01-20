@@ -12,6 +12,7 @@ def variable_change_type()-> None:
 * mypy: `Incompatible types in assignment (expression has type "str", variable has type "int")`
 * ty: nothing
 
+---
 ```
 def no_annotation(a):
     print("hello")
