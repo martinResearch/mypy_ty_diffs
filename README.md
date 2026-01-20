@@ -1,5 +1,5 @@
 # mypy_ty_diffs
-document differences between ty and mypy checks
+document differences between ty (version 0.0.12) and mypy checks
 
 Issues  of interest
 * https://github.com/astral-sh/ty/issues/2111
