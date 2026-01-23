@@ -22,3 +22,8 @@ def no_annotation(a):
 * mypy with `disallow_untyped_defs = True` : `Function is missing a type annotation`
 * ty: nothing
 Note: can be covered by ruff ANN rules
+---
+`d = {"a": []}
+`
+* mypy: error: Need type annotation for "d"  [var-annotated]
+* * ty: nothing
